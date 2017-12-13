@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27128.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMore", "LinqMore\LinqMore.csproj", "{3EB3D110-B460-40B2-8B48-04B17F72F1C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqPlus", "LinqMore\LinqPlus.csproj", "{3EB3D110-B460-40B2-8B48-04B17F72F1C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
