@@ -4,6 +4,19 @@
     <TargetFramework>netstandard1.3</TargetFramework>
     <RootNamespace>NeoSmart.Linq</RootNamespace>
     <AssemblyName>NeoSmart.Linq</AssemblyName>
+    <Authors>NeoSmart Technologies, Mahmoud Al-Qudsi</Authors>
+    <Company>NeoSmart Technologies</Company>
+    <Product>LinqPlus</Product>
+    <PackageId>NeoSmart.Linq</PackageId>
+    <Description>More LINQ awesomeness, with optimized LINQ methods for specific containers, tuple enumeration of dictionaries, functional LINQ extension methods, and more.</Description>
+    <Copyright>NeoSmart Technologies 2017</Copyright>
+    <PackageLicenseUrl>https://cdn.rawgit.com/neosmart/linqplus/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/neosmart/linqplus/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/neosmart/linqplus/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>linq, extension methods, tuples, performance</PackageTags>
+    <PackageReleaseNotes>Initial release on NuGet</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
