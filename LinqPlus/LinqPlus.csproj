@@ -15,8 +15,10 @@
     <RepositoryUrl>https://github.com/neosmart/linqplus/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>linq, extension methods, tuples, performance</PackageTags>
-    <PackageReleaseNotes>Initial release on NuGet</PackageReleaseNotes>
+    <PackageReleaseNotes>* 1.1.0: New IEnumerable&lt;T&gt;.Where(Func&lt;T, bool&gt; condition) extension method
+* 1.0: Initial release on NuGet</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
