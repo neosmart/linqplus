@@ -6,6 +6,11 @@ namespace NeoSmart.Linq
 {
     public static class ExtendedLinq
     {
+        public static bool Contains<T>(this IEnumerable<T> container, Func<T, bool> where)
+        {
+            return container.Where(where).Any();
+        }
+
         public static bool ContainsAnyOf<T>(this IEnumerable<T> container, IEnumerable<T> values)
         {
             return ContainsAnyOf(container, new SortedSet<T>(values));
