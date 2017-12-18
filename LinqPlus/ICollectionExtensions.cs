@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NeoSmart.Linq
 {
-    public static class CollectionExtensions
+    public static class ICollectionExtensions
     {
         public static bool ContainsAnyOf<T>(this ICollection<T> collection, IEnumerable<T> values)
         {
