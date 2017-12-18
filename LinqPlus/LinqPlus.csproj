@@ -14,11 +14,15 @@
     <PackageProjectUrl>https://github.com/neosmart/linqplus/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/neosmart/linqplus/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>linq, extension methods, tuples, performance</PackageTags>
-    <PackageReleaseNotes>* 1.1.0: New IEnumerable&lt;T&gt;.Where(Func&lt;T, bool&gt; condition) extension method
+    <PackageTags>linq, extension methods, tuples, performance, functional</PackageTags>
+    <PackageReleaseNotes>* 1.2: New safe lookup members .FirstOr() and .LastOr(), with optional predicates
+* 1.1.0: New IEnumerable&lt;T&gt;.Where(Func&lt;T, bool&gt; condition) extension method
+
 * 1.0: Initial release on NuGet</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
