@@ -42,6 +42,11 @@ namespace NeoSmart.Linq
             return true;
         }
 
+        public static bool None<T>(this IEnumerable<T> container)
+        {
+            return container.Empty();
+        }
+
         public static bool None<T>(this IEnumerable<T> container, Func<T, bool> where)
         {
             return !Contains(container, where);
