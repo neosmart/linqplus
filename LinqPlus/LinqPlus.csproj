@@ -8,21 +8,21 @@
     <Company>NeoSmart Technologies</Company>
     <Product>LinqPlus</Product>
     <PackageId>NeoSmart.Linq</PackageId>
-    <Description>More LINQ awesomeness, with optimized LINQ methods for specific containers, tuple enumeration of dictionaries, functional LINQ extension methods, and more.</Description>
+    <Description>LinqPlus provides more LINQ awesomeness, with optimized LINQ methods for specific containers, tuple enumeration of dictionaries, functional LINQ extension methods, single function extensions for common patterns, and more.</Description>
     <Copyright>NeoSmart Technologies 2017</Copyright>
     <PackageLicenseUrl>https://cdn.rawgit.com/neosmart/linqplus/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/neosmart/linqplus/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/neosmart/linqplus/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>linq, extension methods, tuples, performance, functional</PackageTags>
-    <PackageReleaseNotes>* 1.2: New safe lookup members .FirstOr() and .LastOr(), with optional predicates
+    <PackageTags>linq, extension methods, tuples, performance, linqplus</PackageTags>
+    <PackageReleaseNotes>* 1.2.1: .None() for predicate filtering
+* 1.2.0: .FirstOr/LastOr extensions for safe lookup for non-nullable types
 * 1.1.0: New IEnumerable&lt;T&gt;.Where(Func&lt;T, bool&gt; condition) extension method
-
 * 1.0: Initial release on NuGet</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.2.0</Version>
-    <AssemblyVersion>1.2.0.0</AssemblyVersion>
-    <FileVersion>1.2.0.0</FileVersion>
+    <Version>1.2.1</Version>
+    <AssemblyVersion>1.2.1.0</AssemblyVersion>
+    <FileVersion>1.2.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
