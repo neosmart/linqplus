@@ -19,7 +19,7 @@ namespace NeoSmart.Linq
         }
 
         /// <summary>
-        /// Returns <code>true</code> if the contents of the two containers <paramref name="sequence1"/> and <paramref name="sequence2"/> 
+        /// Returns <code>true</code> if the contents of the two containers <paramref name="sequence1"/> and <paramref name="sequence2"/>
         /// are identical, even if in a different order.
         /// </summary>
         /// <typeparam name="T"></typeparam>
@@ -32,7 +32,7 @@ namespace NeoSmart.Linq
             return UnorderedSequenceEquals(sequence1, sequence2, comparer);
         }
 
-        public static bool UnorderedSequenceEquals<T>(this IEnumerable<T> sequence1, IEnumerable<T> sequence2, IEqualityComparer<T> comparer = null, int capacityHint = 0)
+        private static bool UnorderedSequenceEquals<T>(this IEnumerable<T> sequence1, IEnumerable<T> sequence2, IEqualityComparer<T> comparer = null, int capacityHint = 0)
         {
             //count the number of each instance
             Dictionary<T, int> counts;
