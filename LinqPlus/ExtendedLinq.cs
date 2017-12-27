@@ -61,5 +61,15 @@ namespace NeoSmart.Linq
         {
             return !container.Any();
         }
+
+        public static bool Is<T>(this object @object)
+        {
+            return @object is T;
+        }
+
+        public static bool IsNot<T>(this object @object)
+        {
+            return !(@object is T);
+        }
     }
 }
