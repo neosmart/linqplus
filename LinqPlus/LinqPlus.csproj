@@ -15,14 +15,15 @@
     <RepositoryUrl>https://github.com/neosmart/linqplus/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>linq, extension methods, tuples, performance, linqplus</PackageTags>
-    <PackageReleaseNotes>* 1.2.1: .None() for predicate filtering
+    <PackageReleaseNotes>* 1.2.2: .Is&lt;T&gt;() and .IsNot&lt;T&gt;() extension methods
+* 1.2.1: .None() for predicate filtering
 * 1.2.0: .FirstOr/LastOr extensions for safe lookup for non-nullable types
 * 1.1.0: New IEnumerable&lt;T&gt;.Where(Func&lt;T, bool&gt; condition) extension method
 * 1.0: Initial release on NuGet</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.2.1</Version>
-    <AssemblyVersion>1.2.1.0</AssemblyVersion>
-    <FileVersion>1.2.1.0</FileVersion>
+    <Version>1.2.2</Version>
+    <AssemblyVersion>1.2.2.0</AssemblyVersion>
+    <FileVersion>1.2.2.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
