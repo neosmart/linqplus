@@ -10,7 +10,7 @@
     <Product>LinqPlus</Product>
     <PackageId>NeoSmart.Linq</PackageId>
     <Description>LinqPlus provides more LINQ awesomeness, with optimized LINQ methods for specific containers, tuple enumeration of dictionaries, functional LINQ extension methods, single function extensions for common patterns, and more.</Description>
-    <Copyright>NeoSmart Technologies 2017</Copyright>
+    <Copyright>NeoSmart Technologies 2017-2018</Copyright>
     <PackageLicenseUrl>https://cdn.rawgit.com/neosmart/linqplus/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/neosmart/linqplus/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/neosmart/linqplus/</RepositoryUrl>
