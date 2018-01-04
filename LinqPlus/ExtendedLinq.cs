@@ -193,5 +193,39 @@ namespace NeoSmart.Linq
         {
             return !(@object is T);
         }
+
+        public static T MaxBy<T,B>(this IEnumerable<T> enumerable, Func<T,B> selector)
+            where B: IComparable<B>
+        {
+            T maxT = enumerable.First();
+            B maxB = selector(maxT);
+
+            foreach (var t in enumerable.Skip(1))
+            {
+                if (selector(t).CompareTo(maxB) > 0)
+                {
+                    maxT = t;
+                }
+            }
+
+            return maxT;
+        }
+
+        public static T MinBy<T, B>(this IEnumerable<T> enumerable, Func<T, B> selector)
+            where B : IComparable<B>
+        {
+            T minT = enumerable.First();
+            B minB = selector(minT);
+
+            foreach (var t in enumerable.Skip(1))
+            {
+                if (selector(t).CompareTo(minB) < 0)
+                {
+                    minT = t;
+                }
+            }
+
+            return minT;
+        }
     }
 }
