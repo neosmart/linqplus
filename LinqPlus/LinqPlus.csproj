@@ -17,7 +17,6 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>linq, extension methods, tuples, performance, linqplus</PackageTags>
     <PackageReleaseNotes>* 1.2.4: .MaxBy&lt;T,Func&lt;T,B&gt;&gt;() and .MinBy&lt;T,Func&lt;T,B&gt;&gt;()
-
 * 1.2.3: .As&lt;T&gt;()
 * 1.2.2: .Is&lt;T&gt;() and .IsNot&lt;T&gt;() extension methods
 * 1.2.1: .None() for predicate filtering
