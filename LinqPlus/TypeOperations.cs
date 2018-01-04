@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NeoSmart.Linq
 {
-    static class TypeOperations
+    public static class TypeOperations
     {
         public abstract class IClass<T> where T : class
         {
