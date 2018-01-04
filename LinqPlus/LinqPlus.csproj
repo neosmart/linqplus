@@ -16,7 +16,9 @@
     <RepositoryUrl>https://github.com/neosmart/linqplus/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>linq, extension methods, tuples, performance, linqplus</PackageTags>
-    <PackageReleaseNotes>* 1.2.4: .MaxBy&lt;T,Func&lt;T,B&gt;&gt;() and .MinBy&lt;T,Func&lt;T,B&gt;&gt;()
+    <PackageReleaseNotes>* 1.2.4.1: Fix accessibility of .Is/.IsNot/.As&lt;T&gt; class
+* 1.2.4: .MaxBy&lt;T,Func&lt;T,B&gt;&gt;() and .MinBy&lt;T,Func&lt;T,B&gt;&gt;()
+
 * 1.2.3: .As&lt;T&gt;()
 * 1.2.2: .Is&lt;T&gt;() and .IsNot&lt;T&gt;() extension methods
 * 1.2.1: .None() for predicate filtering
@@ -24,9 +26,9 @@
 * 1.1.0: New IEnumerable&lt;T&gt;.Where(Func&lt;T, bool&gt; condition) extension method
 * 1.0: Initial release on NuGet</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.2.4</Version>
-    <AssemblyVersion>1.2.4.0</AssemblyVersion>
-    <FileVersion>1.2.4.0</FileVersion>
+    <Version>1.2.4.1</Version>
+    <AssemblyVersion>1.2.4.1</AssemblyVersion>
+    <FileVersion>1.2.4.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
