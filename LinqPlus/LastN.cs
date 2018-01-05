@@ -35,5 +35,14 @@ namespace NeoSmart.Linq
 
             return collection.Skip(collection.Count - n);
         }
+
+        public static IEnumerable<T> Last<T>(this IList<T> list, int n)
+        {
+            int start = Math.Max(0, list.Count - n);
+            for (int i = start; i < list.Count; ++i)
+            {
+                yield return list[i];
+            }
+        }
     }
 }
