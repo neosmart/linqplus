@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -55,6 +55,20 @@ namespace NeoSmart.Linq
         public static bool In<T>(this T t, IEnumerable<T> container)
         {
             return container.Contains(t);
+        }
+
+        public static bool In<T>(this T t, params T[] values)
+            where T : IEquatable<T>
+        {
+            for (int i = 0; i < values.Length; ++i)
+            {
+                if (values.Equals(t))
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         public static bool Empty<T>(this IEnumerable<T> container)
