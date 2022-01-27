@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.3;net5.0</TargetFrameworks>
+    <TargetFrameworks>netstandard1.3;net5.0;net6.0</TargetFrameworks>
     <Title>LinqPlus</Title>
     <RootNamespace>NeoSmart.Linq</RootNamespace>
     <AssemblyName>NeoSmart.Linq</AssemblyName>
@@ -29,7 +29,7 @@
 * 1.1.0: New IEnumerable&lt;T&gt;.Where(Func&lt;T, bool&gt; condition) extension method
 * 1.0: Initial release on NuGet</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.0.0</Version>
+    <Version>2.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.3'">

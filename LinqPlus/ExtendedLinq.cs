@@ -76,6 +76,8 @@ namespace NeoSmart.Linq
             return !container.Any();
         }
 
+// .NET 6 *finally* introduced these, so we can drop them in that implementation
+#if !NET6_0_OR_GREATER
         public static T MaxBy<T,B>(this IEnumerable<T> enumerable, Func<T,B> selector)
             where B: IComparable<B>
         {
@@ -109,5 +111,6 @@ namespace NeoSmart.Linq
 
             return minT;
         }
+#endif
     }
 }
